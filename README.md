@@ -1,5 +1,10 @@
 # Digital Clock And Count Down To New Year Clock.
 
+
+## Live Demo
+**Click here to view the running clock and countdown!**
+[VIEW LIVE PROJECT HERE] (https://nishakaranirmal.github.io/Digital-Clock-Count-Down-To-New-Year-Clock/).
+
 **This project is a simple, dark-themed digital clock that displays the current time in real-time and includes a countdown to the New Year. It was built using standard HTML, CSS, and JavaScript.
 
 
