@@ -33,3 +33,7 @@
     ```
 2.  **Open the Project:** Navigate to the cloned folder.
 3.  **Launch the Clock:** Double-click the `index.html` file to open it in your web browser.
+
+** Note
+
+* This project is not mobile-responsive, so I will update it as soon as possible.
