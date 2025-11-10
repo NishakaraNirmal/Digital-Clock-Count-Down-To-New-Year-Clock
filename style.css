@@ -1,0 +1,221 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-align: center;
+}
+
+@keyframes myAnim {
+
+    0% {
+
+        opacity: 0;
+    }
+
+
+    50% {
+
+        opacity: 1;
+    }
+
+    100% {
+
+        opacity: 0;
+    }
+
+}
+
+
+.first {
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1690983320828-c01b88baacb0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    
+}
+
+.first h1 {
+
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+  
+}
+
+.first .main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    /*border: 1px solid white; */
+    padding: 50px;
+    margin-top: 4rem;
+}
+
+.first .main div {
+    text-align: center;
+}
+
+.first .main div h2 {
+
+    font-size: 5rem;
+}
+.first .main div p {
+
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.first .main div h3 {
+
+    font-size: 2rem;
+    position: relative;
+    bottom: 1.8rem;
+}
+
+#col1 , #col2 {
+
+    animation-name: myAnim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.date {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px  solid red; */
+    margin-top: 2rem;
+    padding: 1rem;
+    gap:2rem;
+}
+
+.date p {
+
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+#day, #month, #year {
+
+    font-size: 5rem;
+}
+
+.date div span {
+
+    font-size: 4rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.second {
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1675747966994-fed6bb450c31?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBmb3IlMjBjbG9jayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:-100vh;
+    transition: 1.5s all linear;
+
+
+}
+
+
+#sw1,#sw2 {
+
+    font-size: 3rem;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+#sw1:hover{
+    color: red ;
+    transition: 0.5s all linear;
+}
+#sw2:hover{
+    color: red ;
+    transition: 0.5s all linear;
+}
+
+
+.second h1 {
+
+    text-align: center;
+    font-size: 4rem;
+    padding: 20px;
+  
+}
+
+.mainsecond {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    /*border: 1px solid white; */
+    padding: 50px;
+    margin-top: 4rem;
+    
+}
+
+.mainsecond div {
+
+    text-align: center;
+}
+
+.mainsecond div h2 {
+
+    font-size: 5rem;
+}
+
+.mainsecond div p{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.mainsecond div h3{
+    font-size: 2rem;
+    position: relative;
+    bottom: 1.8rem;
+
+}
+
+.colon_{
+    animation-name: myAnim;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* active classes */
+
+.second.active {
+
+    top:0;
+    transition: 1.5s all linear;
+}
+
+
+.first.active {
+
+    top:-100vh;
+}
