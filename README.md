@@ -36,4 +36,4 @@
 
 ** Note
 
-* This project is not mobile-responsive, so I will update it as soon as possible.
+* "This project is not currently mobile-responsive and needs to be updated."
